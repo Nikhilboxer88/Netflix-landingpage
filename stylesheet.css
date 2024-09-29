@@ -1,0 +1,153 @@
+body {
+    background-image: url("netflix-background-image.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, .8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.text {
+    color: white;
+    font-size: 2rem;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-weight: 900;
+}
+.text2{
+    color: white;
+    font-size: medium;
+    margin-left: 450px;
+    margin-right: 400px;
+    font-weight: 900;
+
+}
+.lang {
+    display: flex;
+}
+.lang2{
+    display: flex;
+    margin-top: 100px;
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+}
+
+.select {
+    width: 100px;
+    border-color: black;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    width: 65px;
+    height: 30px;
+    border-color: black;
+}
+
+.button2 {
+    background-color: red;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search {
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.htag {
+    color: white;
+    font-size: 35px;
+}
+
+.ptag {
+    color: aliceblue;
+    font-size: large;
+}
+
+input[type="email"] {
+    width: 300px;
+    height: 35px;
+}
+
+.i1 {
+    transition: all .1s ease;
+}
+
+.trend:hover .i1 {
+    transform: scale(1.05);
+}
+
+.trend {
+    margin-left: 50px;
+    margin-top: 0%;
+}
+
+.background {
+    background: linear-gradient(149deg,
+            #192247 0%,
+            #210e17 99.08%);
+}
+
+.join {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.jicon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.Questions{
+    
+    background-color:gray ;
+    color: white;
+    margin-left: 250px;
+    margin-right: 100px;
+    white-space: 10px;
+    padding-left: 10px;
+}
+.flex2{
+    display: flex;
+    margin-left: 50px;
+    gap: 100px;
+    
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    align-content: center;
+    width: 100%;
+    background-color:#210e17; 
+    font-size: medium;
+    font-weight: bolder;
+}
