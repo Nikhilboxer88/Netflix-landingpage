@@ -1,0 +1,116 @@
+
+.logo {
+    margin-left: 50px;
+}
+
+body {
+    background-image: url(netflix-background-image.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, .6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo1 {
+    width: 150px;
+}
+
+#color {
+    color: white;
+    font-weight: 900;
+}
+
+#color2 {
+    color: white;
+    font-size: small;
+    font-weight: 300px;
+    font-style: normal;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
+}
+
+
+.form {
+    background-color: rgba(0, 0, 0, 0.6);
+
+    border-radius: 20px;
+
+
+
+    width: 400px;
+    padding: 20px 0px;
+
+}
+
+.mform {
+    text-align: center;
+
+}
+
+.inputtype {
+
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+    border-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+
+
+}
+
+.inputtype2 {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: rgb(43, 43, 41);
+    border-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+
+.page2 {
+
+    display: flex;
+    gap: 100px;
+    margin-left: 30px;
+
+}
+
+.page3 {
+    display: flex;
+}
+
+.twopages {
+    background-color: black;
+    padding: 200px;
+
+
+
+}
+
+.button {
+    color: white;
+    background-color: red;
+    border-color: red;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+
+
+}
